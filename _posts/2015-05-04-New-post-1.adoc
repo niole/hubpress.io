@@ -1,0 +1,3 @@
+= New post 1
+== new post 2
+:hp-image: image::/niole/niole.github.io/blob/master/images/mini.jpg
