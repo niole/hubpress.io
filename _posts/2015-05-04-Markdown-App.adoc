@@ -1,0 +1,38 @@
+= Markdown-App
+
+
+
+==== This is a short paragraph discussing the following application and what inspired it. I really enjoy developing in JavaScript. I want to be a versatile fullstack developer someday.
+
+
+.caption describing above picture. Click the image to visit the app.
+image::mini.jpg[link="http://104.131.191.81:2990/"]
+
+=== *_This app utilizes:_*
+
+* the Express framework
+* MongoDB
+* JavaScript:
+** NodeJS
+** ReactJS
+** CommonJS
+
+To get it up and running, in top level of app run...
+----
+npm start
+----
+Then get the database hooked up by running,
+----
+mongod --dbpath data
+----
+Finally, in yet another window, run,
+----
+mongo
+----
+Then open up your browser to __http://localhost:2990__.
+
+
+Look at the project's https://github.com/niole/Markdown-App[source code^].
+
+
+
