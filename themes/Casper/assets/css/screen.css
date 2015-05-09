@@ -543,6 +543,7 @@ margin on the iframe, cause it breaks stuff. */
 /* NEW GHOST BUTTON CLASSES*/
 .ghost-button:hover,
 .ghost-button:active {
+  background-color: transparent;
   color: #303030;
 }
 
