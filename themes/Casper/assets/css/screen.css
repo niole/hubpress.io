@@ -467,24 +467,6 @@ margin on the iframe, cause it breaks stuff. */
    4. General - The main styles for the the theme
    ========================================================================== */
 
-/* NEW GHOST BUTTON CLASSES*/
-.ghost-button {
-  display: inline-block;
-  width: 200px;
-  padding: 8px;
-  color: #fff;
-  border: 1px solid #fff;
-  text-align: center;
-  outline: none;
-  text-decoration: none;
-}
-/* NEW GHOST BUTTON CLASSES*/
-.ghost-button:hover,
-.ghost-button:active {
-  background-color: #fff;
-  color: #000;
-}
-
 /* Big cover image on the home page */
 .main-header {
     position: relative;
@@ -539,6 +521,25 @@ margin on the iframe, cause it breaks stuff. */
     -webkit-animation: none;
     animation: none;
 }
+/* NEW GHOST BUTTON CLASSES*/
+.ghost-button {
+  display: block;
+  width: 200px;
+  padding: 8px;
+  color: #fff;
+  border: 1px solid #fff;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+}
+/* NEW GHOST BUTTON CLASSES*/
+.ghost-button:hover,
+.ghost-button:active {
+  background-color: #fff;
+  color: #000;
+}
+
+
 
 /* Put a semi-opaque radial gradient behind the icon to make it more visible
    on photos which happen to have a light background. */
