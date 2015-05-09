@@ -543,7 +543,7 @@ margin on the iframe, cause it breaks stuff. */
 .ghost-button:hover,
 .ghost-button:active {
   background-color: #fff;
-  color: #000;
+  color: #303030;
 }
 
 
