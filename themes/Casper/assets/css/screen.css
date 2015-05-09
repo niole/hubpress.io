@@ -524,6 +524,7 @@ margin on the iframe, cause it breaks stuff. */
 /* NEW GHOST BUTTON CLASSES*/
 .ghost-button {
   display: block;
+  position: absolute;
   width: 200px;
   padding: 8px;
   color: #fff;
