@@ -534,6 +534,7 @@ margin on the iframe, cause it breaks stuff. */
   color: #fff;
   border: 1px solid #fff;
   text-align: center;
+  font-family: "Open Sans", sans-serif;
   outline: none;
   text-decoration: none;
 }
