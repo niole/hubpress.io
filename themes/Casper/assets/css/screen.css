@@ -550,8 +550,8 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 main[ id= "content" ]:target {
-    -webkit-transform: translateY( -500px );
-    transform: translateY( -500px );
+    -webkit-transform: translateY( 500px );
+    transform: translateY( 500px );
 }
 
 /* Button animation tryout. */
