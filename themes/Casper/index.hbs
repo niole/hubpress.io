@@ -13,7 +13,13 @@
             <h2 class="page-description">{{@blog.description}}</h2>
         </div>
     </div>
-    <a class="ghost-button" href="#content" data-offset="0">Scroll Down</a>
+    <a class="ghost-button fade" href="#content" data-offset="0">Scroll Down</a>
+
+    $(".ghost-button").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#elementtoScrollToID").offset().top
+        }, 2000);
+    });
 </header>
 
 {{! The main content area on the homepage }}
