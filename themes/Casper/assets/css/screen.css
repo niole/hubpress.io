@@ -551,7 +551,7 @@ margin on the iframe, cause it breaks stuff. */
 
 .fade
 {
-        opacity:0.5;
+        opacity:0;
 }
 .fade:hover
 {
