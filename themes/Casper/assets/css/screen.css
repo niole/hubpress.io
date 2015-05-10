@@ -557,6 +557,7 @@ margin on the iframe, cause it breaks stuff. */
       font-weight: 700;
       font-size: 2.4em;
       transition: all 0.3s ease;
+      font-family: "lft-etica",sans-serif; 
 }
 
 /* Put a semi-opaque radial gradient behind the icon to make it more visible
