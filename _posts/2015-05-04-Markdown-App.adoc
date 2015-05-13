@@ -6,13 +6,13 @@
 
 
 .caption describing above picture. Click the image to visit the app.
-image::mini.jpg[link="http://104.131.191.81:2990/"]
+image::mini.jpg[link="http://www.google.com"]
 
 === *_This app utilizes:_*
 
 * the Express framework
 * MongoDB
-* JavaScript:
+* JavaScript
 ** NodeJS
 ** ReactJS
 ** CommonJS
