@@ -6,7 +6,7 @@
 
 
 .caption describing above picture. Click the image to visit the app.
-image::mini.jpg[link="http://www.google.com"]
+image::mini.jpg[]
 
 === *_This app utilizes:_*
 
