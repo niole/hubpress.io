@@ -525,12 +525,17 @@ margin on the iframe, cause it breaks stuff. */
     -webkit-animation: none;
     animation: none;
 }
+
+.vertical {
+  position:relative;
+}
+
 /* NEW GHOST BUTTON CLASSES*/
 .ghost-button {
   display: inline-block;
   position:absolute;
   z-index: 100;
-  bottom: 40%;
+  bottom: 250px;
   left: 46%;
   margin-left: 0px;
   width: 200px;
