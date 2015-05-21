@@ -532,9 +532,8 @@ margin on the iframe, cause it breaks stuff. */
 
 /* NEW GHOST BUTTON CLASSES*/
 .ghost-button {
-  float:left;
   display: inline-block;
-  bottom: 70px;
+  margin-bottom: 50%;
   left: 43%;
   margin-left: 100px;
   width: 200px;
