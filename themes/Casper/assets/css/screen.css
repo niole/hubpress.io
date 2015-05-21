@@ -583,6 +583,31 @@ margin on the iframe, cause it breaks stuff. */
         background:#53a7ea;
 }*/
 
+
+
+
+
+
+
+/*LOWEST priority*/
+/*.header-link { font-family: “Calibri”, sans-serif; } /*<0,0,1,0>*/
+
+/*.header-link:hover { font-family: “Calibri”, sans-serif; } /*<0,0,2,0>*/
+
+/* a#post-page:hover { font-family: “Calibri”, sans-serif; } /*<0,1,1,1>*/
+/*HIGHEST priority*/
+
+
+
+
+
+
+
+
+
+
+
+
 h1:hover, h2:hover {
     text-shadow:
                 1px 1px #53a7ea,

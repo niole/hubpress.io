@@ -28,7 +28,15 @@
 {{! The main content area on the homepage }}
 <main id="content" class="content" role="main">
 
+$('.navmenu').offcanvas()
+
+<nav id="myNavmenu" class="navmenu navmenu-default navmenu-fixed-left offcanvas" role="navigation">
+  <a class="navmenu-brand" href="#">Brand</a>
+  <ul class="nav navmenu-nav">
     {{! The tag below includes the post loop - partials/loop.hbs }}
     {{> "loop"}}
+  </ul>
+</nav>
+
 
 </main>
