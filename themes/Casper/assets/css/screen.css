@@ -535,8 +535,8 @@ margin on the iframe, cause it breaks stuff. */
   display: inline-block;
   position:absolute;
   z-index: 100;
-  bottom: 250px;
-  left: 46%;
+  bottom: 70px;
+  left: 30%;
   margin-left: 0px;
   width: 200px;
   padding: 30px;
